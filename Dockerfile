@@ -1,5 +1,5 @@
  FROM node:lts AS build
-  2 ADD sample-react /kishore
+  2 COPY sample-react /kishore
   3 WORKDIR /kishore
   4 RUN npm install && npm run build
   5
